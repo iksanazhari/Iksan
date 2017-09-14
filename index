@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+double a, b, c=0;
+
+cout<<"masukan nilai panjang :";
+cin>>a;
+cout<<"masukan nilai lebar :";
+cin>>b;
+c=(a*b);
+cout<<"hasil dari luar persegi panjang ="<<c<<endl;
+return 0;
+}
