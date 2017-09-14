@@ -1,0 +1,11 @@
+@echo off
+title Kalkulator by : infopc
+:ulang
+echo Mari berhitung Dengan infopc...!!
+set /p A=Masukkan Angka Pertama =
+set /p B=Masukkan Angka Kedua =
+set /p o=Pilih pengoperasian anda (*, +, -, /) =
+set /a "jumlah" = A%o%B
+echo Jumlah = %jumlah%
+pause>null
+goto ulang
